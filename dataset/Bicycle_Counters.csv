@@ -1,0 +1,24 @@
+id,name,latitude,longitude,domain,site,timezone,interval,sens,installationDate,counter
+0,Manhattan Bridge 2012 Test Bike Counter,40.699810,-73.985890,New York City DOT,100005020,(UTC-05:00) US/Eastern;DST,15,0,08/31/2012,
+1,2nd Avenue - 26th St S,40.739710,-73.979540,New York City DOT,100009424,(UTC-05:00) US/Eastern;DST,15,0,05/22/2015,
+2,Prospect Park West,40.671288,-73.971382,New York City DOT,100009425,(UTC-05:00) US/Eastern;DST,15,0,11/07/2016,Y2H13094304
+7,Staten Island Ferry,40.643387,-74.072075,New York City DOT,100010017,(UTC-05:00) US/Eastern;DST,15,0,03/31/2016,Y2H13094300
+19,Amsterdam Ave at 86th St.,40.787745,-73.975021,New York City DOT,100057319,(UTC-05:00) US/Eastern;DST,15,0,10/24/2019,Y2H18055357
+5,Ed Koch Queensboro Bridge Shared Path,40.751038,-73.940820,New York City DOT,100009428,(UTC-05:00) US/Eastern;DST,15,0,12/04/2013,Y2H19111445
+6,Manhattan Bridge 2013 to 2018 Bike Counter,40.699768,-73.985820,New York City DOT,100009429,(UTC-05:00) US/Eastern;DST,15,0,12/03/2013,
+4,Williamsburg Bridge Bike Path,40.710530,-73.961450,New York City DOT,100009427,(UTC-05:00) US/Eastern;DST,15,0,12/03/2013,Y2H13074108
+13,Manhattan Bridge Display Bike Counter,40.715600,-73.994750,New York City DOT,100047029,(UTC-05:00) US/Eastern;DST,15,0,06/01/2018,Y2H17062567
+12,Forsyth Plaza,40.715623,-73.994744,New York City DOT,100039064,(UTC-05:00) US/Eastern;DST,15,0,01/23/2018,
+10,1st Avenue - 26th St N - Interference testing,40.738830,-73.977165,New York City DOT,100010020,(UTC-05:00) US/Eastern;DST,15,0,01/01/1900,Y2H18044984
+16,Manhattan Bridge Interference Calibration 2019 Bike Counter,0.000000,0.000000,New York City DOT,100055175,(UTC-05:00) US/Eastern;DST,15,0,01/01/1900,Y2H13074105
+15,Manhattan Bridge 2012 to 2019 Bike Counter,40.699810,-73.985890,New York City DOT,100051865,(UTC-05:00) US/Eastern;DST,15,0,08/31/2012,
+22,Manhattan Bridge Bike Comprehensive,40.715600,-73.994750,New York City DOT,100062893,(UTC-05:00) US/Eastern;DST,15,0,08/31/2012,Y2H17062567
+21,Kent Ave btw South 6th St. and Broadway,40.711282,-73.968386,New York City DOT,100058279,(UTC-05:00) US/Eastern;DST,15,0,08/14/2014,
+14,Manhattan Bridge Interference Calibration 2018 Bike Counter,0.000000,0.000000,New York City DOT,100048744,(UTC-05:00) US/Eastern;DST,15,0,01/01/1900,Y2H13074109
+11,Brooklyn Bridge Bike Path,40.709274,-74.000990,New York City DOT,100010022,(UTC-05:00) US/Eastern;DST,15,0,12/19/2013,Y2H13074106
+18,Broadway at 50th St,40.761380,-73.984080,New York City DOT,100057318,(UTC-05:00) US/Eastern;DST,15,0,06/14/2019,Y2H18055362
+17,8th Ave at 50th St.,40.762348,-73.986120,New York City DOT,100057316,(UTC-05:00) US/Eastern;DST,15,0,06/14/2018,Y2H18055363
+9,Kent Ave btw North 8th St and North 9th St,40.720959,-73.960930,New York City DOT,100010019,(UTC-05:00) US/Eastern;DST,15,0,11/22/2016,Y2H13094302
+8,Pulaski Bridge,40.742563,-73.951492,New York City DOT,100010018,(UTC-05:00) US/Eastern;DST,15,0,06/24/2017,Y2H13094301
+20,Columbus Ave at 86th St.,40.787745,-73.975021,New York City DOT,100057320,(UTC-05:00) US/Eastern;DST,15,0,10/24/2019,Y2H18055356
+3,Manhattan Bridge Ped Path,40.714573,-73.994950,New York City DOT,100009426,(UTC-05:00) US/Eastern;DST,15,0,12/04/2013,Y2H13074107
