@@ -1,0 +1,112 @@
+module load python/gnu/3.6.5
+module load spark/2.4.0
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task0-sql.py covid_19_data.csv 
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task0.py task0-sql.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task1a.py turnstile_2019.csv task1a_2019.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task1a.py turnstile_2020.csv task1a_2020.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task1b.py task1a_2019.out task1b_2019.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task1b.py task1a_2020.out task1b_2020.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task1c.py task0.out task1a_2020.out task1b_2020.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task1d.py Daily_Transit_Ridership.csv
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task1e.py task1d.out task1b_2019.out task1e_2019.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task1e.py task1d.out task1b_2020.out task1e_2020.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task1f.py task0.out task1d.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task2a.py Bicycle_Counts.csv Bicycle_Counters.csv
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task2b.py task2a.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task2c.py task2b.out task0.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task3a.py 2019
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task3a.py 2020
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task3b.py task3a_2019.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task3b.py task3a_2020.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task3b_join.py 
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task3c.py task3a_2019.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task3c.py task3a_2020.out
+
+spark-submit --conf spark.pyspark.python=/share/apps/python/3.6.5/bin/python task3d.py 
+
+hfs -getmerge task0-sql.out task0-sql.out
+hfs -rm -r task0-sql.out
+
+hfs -getmerge task0.out task0.out
+hfs -rm -r task0.out
+
+hfs -getmerge task1a_2019.out task1a_2019.out
+hfs -rm -r task1a_2019.out
+
+hfs -getmerge task1a_2020.out task1a_2020.out
+hfs -rm -r task1a_2020.out
+
+hfs -getmerge task1b_2019.out task1b_2019.out
+hfs -rm -r task1b_2019.out
+
+hfs -getmerge task1b_2020.out task1b_2020.out
+hfs -rm -r task1b_2020.out
+
+hfs -getmerge task1c.out task1c.out
+hfs -rm -r task1c.out
+
+hfs -getmerge task1d.out task1d.out
+hfs -rm -r task1d.out
+
+hfs -getmerge task1e_2019.out task1e_2019.out
+hfs -rm -r task1e_2019.out
+
+hfs -getmerge task1e_2020.out task1e_2020.out
+hfs -rm -r task1e_2020.out
+
+hfs -getmerge task1f.out task1f.out
+hfs -rm -r task1f.out
+
+hfs -getmerge task2a.out task2a.out
+hfs -rm -r task2a.out
+
+hfs -getmerge task2b.out task2b.out
+hfs -rm -r task2b.out
+
+hfs -getmerge task2c.out task2c.out
+hfs -rm -r task2c.out
+
+hfs -getmerge task3a_2019.out task3a_2019.out
+hfs -rm -r task3a_2019.out
+
+hfs -getmerge task3a_2020.out task3a_2020.out
+hfs -rm -r task3a_2020.out
+
+hfs -getmerge task3b_2019.out task3b_2019.out
+hfs -rm -r task3b_2019.out
+
+hfs -getmerge task3b_2020.out task3b_2020.out
+hfs -rm -r task3b_2020.out
+
+hfs -getmerge task3b.out task3b.out
+hfs -rm -r task3b.out
+
+hfs -getmerge task3c_2019.out task3c_2019.out
+hfs -rm -r task3c_2019.out
+
+hfs -getmerge task3c_2020.out task3c_2020.out
+hfs -rm -r task3c_2020.out
+
+hfs -getmerge task3d.out task3d.out
+hfs -rm -r task3d.out
