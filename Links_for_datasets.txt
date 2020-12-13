@@ -1,0 +1,19 @@
+Links for datasets
+
+covid_19_cases:
+https://data.cityofnewyork.us/Health/COVID-19-Daily-Counts-of-Cases-Hospitalizations-an/rc75-m7u3
+
+NYC Subway Turnstile Counts:
+https://qri.cloud/nyc-transit-data/turnstile_daily_counts_2020
+https://qri.cloud/nyc-transit-data/turnstile_daily_counts_2019
+
+Daily ridership
+https://data.bts.gov/Transit/Daily-Transit-Ridership/dc74-f8qd
+
+Bicycle Counts:
+https://data.cityofnewyork.us/Transportation/Bicycle-Counts/uczf-rk3c
+https://data.cityofnewyork.us/Transportation/Bicycle-Counters/smn3-rzf9
+
+CitiBike
+https://www.citibikenyc.com/system-data
+
